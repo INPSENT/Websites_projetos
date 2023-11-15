@@ -1,5 +1,6 @@
 var inf1 = document.getElementById('first')
 var inf2 = document.getElementById('second')
+inf1.style.display = 'block'
 
 function clicou(){
     inf1.style.display = 'block'
