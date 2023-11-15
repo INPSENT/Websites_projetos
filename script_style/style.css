@@ -12,6 +12,7 @@ body{
 .principal{
     width: 480px;
     margin: auto;
+    height: 100vh;
 }
 
 header{
