@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .principal{
+        width: 768px;
+    }
+
+    .link{
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .principal{
+        width: 900px;
+    }
+
+    .link{
+        padding: 5px;
+    }
+
+    p{
+        font-size: 22px;
+        margin: auto;
+    }
+
+    
+    
+}

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, lightblue, lightgreen);
+}
+.principal{
+    width: 480px;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(to top, aquamarine, lightblue);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+    text-align: left;
+    color: orange;
+}
+
+h2{
+    padding: 10px;
+}
+
+ul, li, a.link{
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.link{
+    background-color: rgb(78, 78, 173)(0, 0, 255, 0.466);
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.397);
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+}
+
+.link:hover{
+    background-color: white;
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+h2{
+    margin: 20px;
+}
+
+article{
+    background-image: linear-gradient(to top, aqua, aquamarine);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    margin: 10px;
+    font-size: 18px;
+}
+
+h3,p{
+    margin: 10px;
+    padding: 10px;
+    text-indent: 15px;
+    font-size: 18px;
+}
+
+main{
+    background-image: linear-gradient(to top, lightgreen, aqua);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h4{
+    padding: 20px;
+}
+
+#link:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+.check{
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.check2{
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.check:hover{
+    color: lightgray;
+}
+
+.check2:hover{
+    color: lightgray;
+}
+
+input:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+label:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.first{
+    display: none;
+}
+
+.second{
+    display: none;
+}
+
+.img{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+img{
+    height: 180px;
+    padding: 10px;
+}
+
+button{
+    margin: 20px;
+    padding: 15px;
+
+}
+
+button:hover{
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
