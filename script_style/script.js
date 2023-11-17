@@ -12,7 +12,7 @@ function clicado(){
 }
 
 function acesso(){
-    var phoneNumber = "+5522996212508"
+    var phoneNumber = "+5522997590309"
     var message = 'Olá, como vai?'
     var whatsappLink = 'whatsapp://send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message)
     window.location.href = whatsappLink
